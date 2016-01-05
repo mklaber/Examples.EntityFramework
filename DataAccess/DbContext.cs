@@ -30,7 +30,7 @@ namespace WebApplication.DataAccess
     {
         public CodeConfig()
         {
-            SetDefaultConnectionFactory(new System.Data.Entity.Infrastructure.SqlConnectionFactory());
+            SetDefaultConnectionFactory(new System.Data.Entity.Infrastructure.LocalDbConnectionFactory("mssqllocaldb"));
             SetProviderServices("System.Data.SqlClient",
                         System.Data.Entity.SqlServer.SqlProviderServices.Instance);
         }

@@ -18,6 +18,7 @@ namespace WebApplication.Mvc6.Controllers
 
         public IActionResult Index()
         {
+            var posts = this.postRepository.GetAll().ToList();
             return View();
         }
 

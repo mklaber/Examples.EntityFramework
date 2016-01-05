@@ -4,3 +4,6 @@ packages
 **\obj
 **.*.csproj.user 
 **\node_modules 
+.vs/
+packages/
+WebApplication.Mvc6/node_modules/
